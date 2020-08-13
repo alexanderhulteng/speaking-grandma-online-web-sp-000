@@ -2,7 +2,7 @@ def speak_to_grandma(string)
   if string.match(/I LOVE YOU GRANDMA!/)
      "I LOVE YOU TOO PUMPKIN!"
 
-  elsif string.match(/\b[A-Z]+/)
+  elsif string.match(/\b[A-Z]+\b/)
     "NO, NOT SINCE 1938!"
 
   elsif string.scan(/[a-z]/)
